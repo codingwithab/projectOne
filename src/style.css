@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(244, 217, 188);
+    color: rgb(0, 0, 0);
+    font-weight: bold; 
+}
+
+h1 {
+    color: black;
+    text-align: center;
+} 
+
+button {
+    border-radius: 5%;
+    color: white;
+    margin: 10px;
+    height: 100px;
+    width: 250px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.calculator-cal {
+    background-color: green;
+}
+
+.subtract {
+    background-color: red;
+}
+
+.divide {
+    background-color: black;
+}
+
+.multiply {
+    background-color: blue;
+}
+
+#button-clicked {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2.5%;
+}
+
+.jc-center {
+    justify-content: center;  
+}
+
+.flex-parent {
+    display: flex;
+}
+
+.fontSize {
+    font-size: x-large;
+}
+
+.decision-no {
+    background-color: black;
+    color: red;
+}
+
+.decision-yes {
+    background-color: black;
+    color: green;
+}
+
+.calculator {
+    box-shadow: 1px 2px 2px 1px;
+    height: 505px;
+    width: 370px;
+    background-color: gainsboro;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.key {
+    height: 100px;
+    width: 100px;
+    border-radius: 5%;
+    border-color: 2px black;
+    color: whitesmoke;
+    background-color: steelblue;
+    margin: 0px -5px 0px 0px !important;
+}
+
+.clear-entry {
+    height: 100px;
+    width: 75px;
+    background-color: darksalmon;
+    color: white;
+}
+
+.function-keys {
+    height: 100px;
+    width: 75px;
+    background-color: gainsboro;
+    color: grey;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.clear-entry :hover {
+    background-color: red
+}
+
+.plus {
+    background-color: gainsboro;
+    color: grey;
+}
+
+.calc-output {
+    background-color: #11113f;
+    color: #00FF00;
+    font-family: "Xenara";
+    height: 75px;
+    text-align: right;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 30px;
+}
+
+.output-text {
+    font-size: 36px;
+    text-transform: uppercase;
+}
